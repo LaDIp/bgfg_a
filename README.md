@@ -30,3 +30,6 @@ cv2.imshow('new', display_im)
 ~~~~
 
 you can try to run **bgfg_demo.py** to see all functionalities of bgfg_a and how they work.
+
+## Author
+terry0201@gmail.com
