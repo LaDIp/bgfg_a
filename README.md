@@ -1,5 +1,5 @@
 # bgfg_a
-a collection of opencv background segmentation method with simple denoise
+a collection of opencv background segmentation method with simple denoise, display functionalities are also provided.
 
 ## Prerequisite
 ~~~~
