@@ -1,6 +1,14 @@
 # bgfg_a
 a collection of opencv background segmentation method with simple denoise
 
+## Prerequisite
+~~~~
+# basic
+pip install opencv
+# if you want to use bgmodels in cv2.bgsegm and cv2.cuda
+pip install opencv-contrib-python 
+~~~~
+
 ## Usage
 ~~~~
 from bgfg_a import bgfg_a
@@ -21,4 +29,4 @@ display_im = bgfg.foreground_bbox(display_im, fgmask, True)
 cv2.imshow('new', display_im)
 ~~~~
 
-you can try to run **bgfg_demo.py** to see all functionalities of bgfg_a and how they work
+you can try to run **bgfg_demo.py** to see all functionalities of bgfg_a and how they work.
